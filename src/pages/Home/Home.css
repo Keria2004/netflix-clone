@@ -43,12 +43,16 @@
 }
 
 .btn-hero .btn {
+  gap: 5px;
   border: none;
   border-radius: 5px;
   outline: none;
   padding: 8px 20px;
   display: inline-flex;
   align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .btn-hero .btn img {
@@ -57,12 +61,17 @@
 }
 
 .dark-btn {
-  background-color: #333;
-  color: white;
+  background-color: #6d6d6eb3;
+  color: #fff;
 }
 
 .btn-hero .btn:hover {
-  background-color: #555;
+  background-color: #ffffffbf;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+.btn-hero .dark-btn:hover {
+  background-color: #6d6d6e66;
+  cursor: pointer;
 }
