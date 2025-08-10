@@ -19,7 +19,7 @@
   position: absolute;
   width: 100%;
   padding: 6%;
-  bottom: 50px;
+  bottom: 0;
 }
 
 .hero-caption p {
@@ -39,7 +39,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .btn-hero .btn {
@@ -74,4 +74,11 @@
 .btn-hero .dark-btn:hover {
   background-color: #6d6d6e66;
   cursor: pointer;
+}
+
+.ohter-cards {
+  padding: 10px;
+  margin-left: 50px;
+  background-color: rgb(44, 43, 43);
+  border-radius: 5px;
 }

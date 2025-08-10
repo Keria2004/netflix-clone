@@ -6,6 +6,8 @@ import { useState } from "react";
 const Login = () => {
   const [signState, setSignState] = useState("Sign In");
 
+  const YOUR_API_KEY = "57e917719b244e7eb626e329220d528b";
+
   const handleSignStateChange = () => {
     setSignState((prevState) =>
       prevState === "Sign In" ? "Sign Up" : "Sign In"

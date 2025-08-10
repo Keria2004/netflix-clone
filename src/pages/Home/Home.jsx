@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import hero_banner from "../../assets/hero_banner.jpg";
@@ -31,7 +30,12 @@ const Home = () => {
               More Info
             </button>
           </div>
-          <TitleCards />
+          <TitleCards title={"Popular"} category={"now_playing"} />
+        </div>
+        <div className="ohter-cards">
+          <TitleCards title={"Playing"} category={"popular"} />
+          <TitleCards title={"Top Rated"} category={"top_rated"} />
+          <TitleCards title={"Upcoming"} category={"upcoming"} />
         </div>
         <Footer />
       </div>
